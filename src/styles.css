@@ -110,8 +110,9 @@ h1{font-size:clamp(2.2rem,5.2vw,3.7rem);line-height:1.1;letter-spacing:-.03em;fo
 .contact{text-align:center}
 .contact .lead{margin-inline:auto}
 .email-line{margin-top:18px;font:500 1.05rem "JetBrains Mono",monospace;overflow-wrap:anywhere}
-.email-line a{color:var(--accent);border-bottom:1px dashed currentColor}
-.email-line a:hover{color:var(--accent-2)}
+.email-copy{display:inline-flex;flex-direction:column;align-items:center;gap:4px;font:inherit;color:var(--accent);background:none;border:0;border-bottom:1px dashed currentColor;padding:0 0 2px;cursor:pointer}
+.email-copy:hover{color:var(--accent-2)}
+.copy-hint{font:500 .72rem Inter,sans-serif;color:var(--muted)}
 .footer{border-top:1px solid var(--border);padding:26px 0;color:var(--muted);font-size:.9rem}
 .foot-inner{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .foot-inner a:hover{color:var(--accent)}
