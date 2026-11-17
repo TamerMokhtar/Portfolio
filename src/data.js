@@ -7,7 +7,44 @@ export const navItems = [
   { id: 'about', label: 'About' },
   { id: 'skills', label: 'Skills' },
   { id: 'projects', label: 'Projects' },
+  { id: 'certifications', label: 'Certifications' },
   { id: 'contact', label: 'Contact' },
+];
+
+import problemSolvingImg from './assets/cert-problem-solving.png';
+import nodeBootcampImg from './assets/cert-nodejs-bootcamp.jpg';
+
+export const certifications = [
+  {
+    title: 'Certificate of Problem Solving & Competitive Programming',
+    issuer: 'Coach Academy EG',
+    image: problemSolvingImg,
+    imageAlt: 'Coach Academy Problem Solving certificate for Tamer Mokhtar',
+    description:
+      'Completed intensive C++ training covering fundamentals, conditions, loops, arrays, strings, functions, recursion, complexity analysis (Big-O), and the Standard Template Library (STL) with dynamic memory management.',
+    tags: ['C++', 'STL', 'Recursion', 'Big-O'],
+  },
+  {
+    title: 'Node.js, Express, MongoDB & More: The Complete Bootcamp',
+    issuer: 'Udemy',
+    instructor: 'Jonas Schmedtmann',
+    date: 'Jan 23, 2025',
+    image: nodeBootcampImg,
+    imageAlt: 'Udemy certificate of completion for the Node.js, Express, MongoDB & More bootcamp',
+    verifyUrl: 'https://ude.my/UC-bc371965-3ed3-4649-8b89-3d941fc59ace',
+    description:
+      'Comprehensive 42-hour bootcamp covering the full back-end stack: Node.js internals, Express framework, RESTful API design (filtering, sorting, pagination), MongoDB & Mongoose (including advanced features and geospatial data), MVC architecture, JWT authentication, security best practices (encryption, sanitization, rate limiting), and Stripe payment integration.',
+    tags: ['Node.js', 'Express', 'MongoDB', 'JWT', 'Stripe'],
+  },
+];
+
+export const softSkills = [
+  'Strong Communication',
+  'Analytical Thinking',
+  'Problem Solving',
+  'Presentation Skills',
+  'Well-Organized',
+  'Teamwork & Collaboration',
 ];
 
 export const facts = [
