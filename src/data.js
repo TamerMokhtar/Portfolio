@@ -31,7 +31,6 @@ export const certifications = [
     date: 'Jan 23, 2025',
     image: nodeBootcampImg,
     imageAlt: 'Udemy certificate of completion for the Node.js, Express, MongoDB & More bootcamp',
-    verifyUrl: 'https://ude.my/UC-bc371965-3ed3-4649-8b89-3d941fc59ace',
     description:
       'Comprehensive 42-hour bootcamp covering the full back-end stack: Node.js internals, Express framework, RESTful API design (filtering, sorting, pagination), MongoDB & Mongoose (including advanced features and geospatial data), MVC architecture, JWT authentication, security best practices (encryption, sanitization, rate limiting), and Stripe payment integration.',
     tags: ['Node.js', 'Express', 'MongoDB', 'JWT', 'Stripe'],

@@ -4,7 +4,7 @@ import { useReveal } from '../hooks.js';
 
 function CertCard({ cert, onOpen }) {
   const ref = useReveal();
-  const { title, issuer, instructor, date, description, tags, image, imageAlt, verifyUrl } = cert;
+  const { title, issuer, instructor, date, description, tags, image, imageAlt } = cert;
   return (
     <article className="cert reveal" ref={ref}>
       <button
@@ -31,11 +31,6 @@ function CertCard({ cert, onOpen }) {
           <button type="button" className="link-btn" onClick={() => onOpen(cert)}>
             View certificate <b>→</b>
           </button>
-          {verifyUrl && (
-            <a className="link" href={verifyUrl} target="_blank" rel="noopener noreferrer">
-              Verify on Udemy <b>→</b>
-            </a>
-          )}
         </div>
       </div>
     </article>
